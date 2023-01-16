@@ -93,7 +93,8 @@ SELECT
     COUNT(*) AS Employee_Count
 FROM HRdata
 WHERE Attrition = 'Yes'
-GROUP BY Age_Range;
+GROUP BY Age_Range
+ORDER BY Age_Range;
 
 -- High Performers vs Attrition by Job Role
 
